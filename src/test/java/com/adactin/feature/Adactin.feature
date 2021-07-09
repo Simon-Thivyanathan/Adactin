@@ -11,13 +11,13 @@ Background: user enters valid username and password
 
 Scenario Outline: : user enters valid username and password
    Given User launch url of adactin application
-   When User enters "<username>" as username
-   And User enters "<password>" as password
+   When User enters "<Username>" as username
+   And User enters "<Password>" as password
    And User click login button
    Then User validate login button
 		
 		Examples:
-		| username | password | 
+		| Username | Password | 
 		| simon | 2234 | 
 		| salim | 5467 |
 		| SowmiyaSri | Sowmiya05 | 
